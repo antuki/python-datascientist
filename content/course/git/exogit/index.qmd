@@ -329,7 +329,7 @@ qui gère les fichiers exclus du contrôle de version.
 :one: Créer un fichier nommé `.gitignore` (:warning: ne pas changer
 ce nom, et s'assurer que celui-ci n'a pas d'extension) via le bloc note ou votre IDE.
 
-Sur la session jupyter d'Onyxia, après vous être assurés que vous vous situez bien dans le dossier <nom_du_projet> de l'arborescence, vous pouvez faire : `File > New > Text file`. Un fichier `untitled.txt` se crée, que vous pouvez renommer en faisant un `Clic droit > rename` dans l'arborescence des fichiers du projet.
+Sur la session jupyter d'Onyxia, après vous être assurés que vous vous situez bien dans le dossier <nom_du_projet> de l'arborescence, vous pouvez faire : `File > New > Text file`. Un fichier `untitled.txt` se crée, que vous pouvez renommer en faisant un `mv untitled.txt .gitignore` dans le terminal.
 
 :two: Aller sur le site <https://www.toptal.com/developers/gitignore>. Vous pouvez
 dans la barre de recherche taper  `Python`, `Pycharm`, `JupyterNotebooks`. 
@@ -983,7 +983,7 @@ En ligne de commande, cela donnera:
 git clone https://github.com/<username>/<reponame>.git
 ~~~
 
-:three: Chaque membre du projet crée un fichier avec son nom et son prénom, selon cette structure `nom-prenom.md` en évitant les caractères spéciaux. Il écrit dedans trois phrases de son choix **sans ponctuation ni majuscules** (pour pouvoir effectuer une correction ultérieurement. Enfin, il commit sur le projet.
+:three: Chaque membre du projet crée un fichier avec son nom et son prénom, selon cette structure `nom-prenom.md` en évitant les caractères spéciaux. Il écrit dedans trois phrases de son choix **sans ponctuation ni majuscules** (pour pouvoir effectuer une correction ultérieurement). Enfin, il commit sur le projet.
 
 Pour rappel, en ligne de commande cela donnera les commandes suivantes à modifier
 
@@ -1047,7 +1047,7 @@ Dans la continuité de l'exercice précédent, chaque personne va travailler sur
 
 :three: Valider les résultats (`git add .` et `commit`) et faire un `push`
 
-:four: La personne la plus rapide n'a, normalement, rencontré aucune difficulté (elle peut s'arrêter temporairement pour regarder ce qui va se passer chez les voisins, en respectant la distanciation sociale :mask:). Les autres voient leur `push` refusé et doivent faire un `pull`. 
+:four: La personne la plus rapide n'a, normalement, rencontré aucune difficulté (elle peut s'arrêter temporairement pour regarder ce qui va se passer chez les voisins). Les autres voient leur `push` refusé et doivent faire un `pull`. 
 
 :boom: Il y a conflit, ce qui doit être signalé par un message du type:
 
